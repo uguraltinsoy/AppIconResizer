@@ -63,7 +63,7 @@ struct ContentView: View {
                                     .foregroundColor(Color(red: 113 / 255, green: 113 / 255, blue: 113 / 255))
                             )
                         }
-                        Text("Size: 1024x1024")
+                        Text("Square picture")
                             .padding(.top, 10)
                     }
                     .frame(width: 250)
@@ -150,7 +150,7 @@ struct ContentView: View {
                     let image = NSImage(contentsOf: url)
                     if image != nil {
                         let size = image?.size
-                        if size?.width == 1024 && size?.height == 1024 {
+                        if size?.width == size?.height {
                             DispatchQueue.main.async {
                                 self.image = image
                                 selectImage = true
