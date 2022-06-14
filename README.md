@@ -4,24 +4,36 @@ App Icon Resizer is a desktop application developed with Swiftui that helps deve
 
 ## Usage
 It offers a simple use that works with drag and drop and select action logic.
-- Step 1 Open App
+### Step 1 Open App
 <img width="500" src="./Image/screen_1.png" />
 
-- Step 2 Drag an Drop Logo 
+### Step 2 Drag an Drop Logo 
 <img width="500" src="./Image/screen_4.png" />
 
-- Step 3 
+### Step 3 
 <img width="500" src="./Image/screen_2.png" />
 
-- Step 3 Select platform and name 
+### Step 3 Select platform and name 
 <img width="500" src="./Image/screen_3.png" />
 
-- Step 4 Ready to use 
+### Step 4 Ready to use 
 <img width="500" src="./Image/screen_5.png" />
 
 ## Download App
 - [Download dmg](https://github.com/uguraltinsoy/AppIconResizer/raw/main/AppIconResizer%20V1.0.dmg)
 
+## Setup
+If you get the error, Control + right click and open
+```
+"App Icon Resizer" cannot be opened because the developer cannot be verified
+```
+
+### Open dmg
+<img width="500" src="./Image/screen_6.png" />
+
+### Swipe app icon to applications
+<img width="500" src="./Image/screen_7.png" />
+<img width="500" src="./Image/screen_8.png" />
 
 ### Developer By
 ```
