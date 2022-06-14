@@ -2,7 +2,7 @@
 # App Icon Resizer
 
 ![Swift 5](https://img.shields.io/badge/swiftui-5-orange.svg)
-![platform macOS 12](https://img.shields.io/badge/platform-macOS%2011-blue.svg)
+![platform macOS 12](https://img.shields.io/badge/platform-macOS%2012-blue.svg)
 
 App Icon Resizer is a desktop application developed with Swiftui that helps developers in the task of automating the generation of graphic assets in several sizes.
 
@@ -38,6 +38,64 @@ If you get the error, Control + right click and open
 ### Swipe app icon to applications
 <img width="500" src="./Image/screen_7.png" />
 <img width="500" src="./Image/screen_8.png" />
+
+## Dimensions by platform
+### Android
+- mipmap-mdpi : 48x48
+- mipmap-hdpi : 72x72
+- mipmap-xhdpi : 96x96
+- mipmap-xxhdpi : 144x144
+- mipmap-xxxhdpi : 192x192
+
+### Iphone Size
+- 29x29
+- 40x40
+- 57x57
+- 58x58
+- 60x60
+- 80x80
+- 87x87
+- 114x114
+- 120x120
+- 180x180
+- 1024x1024
+
+### Ipad Size
+- 20x20
+- 29x29
+- 40x40
+- 50x50
+- 58x58
+- 72x72
+- 76x76
+- 80x80
+- 100x100
+- 144x144
+- 152x152
+- 167x167
+
+### WacthOS Size
+- 48x48
+- 55x55
+- 58x58
+- 80x80
+- 87x87
+- 88x88
+- 100x100
+- 172x172
+- 196x196
+- 216x216
+- 1024x1024
+
+### MacOS Size
+- 16x16
+- 32x32
+- 64x64
+- 128x128
+- 256x256
+- 512x512
+- 1024x1024
+
 
 ### Developer By
 ```
