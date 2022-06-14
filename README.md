@@ -1,5 +1,9 @@
 
 # App Icon Resizer
+
+![Swift 5](https://img.shields.io/badge/swiftui-5-orange.svg)
+![platform macOS 12](https://img.shields.io/badge/platform-macOS%2011-blue.svg)
+
 App Icon Resizer is a desktop application developed with Swiftui that helps developers in the task of automating the generation of graphic assets in several sizes.
 
 ## Usage
@@ -39,6 +43,11 @@ If you get the error, Control + right click and open
 ```
 Uğur Altınsoy
 ```
+
+## ☕️ Do you like the project?
+
+<a href="https://www.buymeacoffee.com/uguraltnsy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217" style="height: 60px !important;width: 217px !important;" ></a>
+
 ### Donate
 ```
 BTC  : 1N7V3wX4xvGfwgBP1zQrcMSxohKKfiDxyH
