@@ -109,7 +109,7 @@ struct ContentView: View {
                                 } else if !iphoneExport && !ipadExport && !watchOsExport && !macOsExport && !androidExport {
                                     isPlatform = true
                                 } else if image != nil {
-                                    exportZipFile()
+                                    exportFiles()
                                 }
                             }, label: {
                                 Text("Generate")
@@ -179,15 +179,13 @@ struct ContentView: View {
         }
     }
     
-    
-    
-    func exportZipFile() {
+    func exportFiles() {
         guard let url = manager.urls(for: .downloadsDirectory, in: .userDomainMask).first else { return }
 
         let ic_launcher = url.appendingPathComponent("App Icon Resizer/\(name)")
         
         if manager.fileExists(atPath: ic_launcher.path) {
-            exportZipFile(index: 1)
+            exportFiles(index: 1)
             return
         }
         
@@ -216,13 +214,13 @@ struct ContentView: View {
         }
     }
     
-    func exportZipFile(index:Int) {
+    func exportFiles(index:Int) {
         guard let url = manager.urls(for: .downloadsDirectory, in: .userDomainMask).first else { return }
 
         let ic_launcher = url.appendingPathComponent("App Icon Resizer/\(name) (\(index))")
         
         if manager.fileExists(atPath: ic_launcher.path) {
-            exportZipFile(index: index + 1)
+            exportFiles(index: index + 1)
             return
         }
         
